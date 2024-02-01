@@ -9,6 +9,10 @@ body {
   height: 100%;
 }
 
+.iframe{
+	margin-bottom: 20px;
+}
+
 .header {
   padding: 15px 0;
 }
@@ -273,6 +277,7 @@ body {
 }
 
 .choose-box {
+	min-height: 260px;
   width: calc(25% - 20px);
   padding: 30px;
   font-weight: 700;
@@ -401,6 +406,7 @@ body {
 
 @media only screen and (max-width: 680px) {
   .choose-box {
+	min-height: auto;
     padding: 10px 15px;
     width: 100%;
   }
@@ -416,6 +422,10 @@ body {
 }
 
 @media only screen and (max-width: 620px) {
+	.iframe{
+		width: 100%;
+	}
+	
   .site-logo {
     width: 45px;
     height: 60px;
@@ -471,6 +481,8 @@ body {
 }
 
 @media only screen and (max-width: 545px) {
+
+
   .about-container {
     flex-direction: column;
     text-align: center;

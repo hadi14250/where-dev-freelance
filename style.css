@@ -9,8 +9,22 @@ body {
   height: 100%;
 }
 
+.hero-btn{
+	border: none;
+	cursor: pointer;
+}
+
+.hero-copy-text{
+	display: none;
+}
+
+.hero-wrapper{
+	display: flex;
+	align-items: center;
+}
+
 .iframe{
-	margin-bottom: 20px;
+	margin-bottom: 65px;
 }
 
 .header {
@@ -87,10 +101,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .hero-holder {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .title-holder {
@@ -139,6 +154,8 @@ body {
 }
 
 .hero-btn {
+	margin-right: 15px;
+	display: block;
   padding: 10px 20px;
   font-family: var(--dog-font);
   font-size: 18px;
@@ -148,6 +165,10 @@ body {
   background-color: var(--red);
   color: var(--white);
   border-radius: 15px;
+}
+
+.hero-btn:last-child{
+	margin-right: 0;
 }
 
 .hero-comp {

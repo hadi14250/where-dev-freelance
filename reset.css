@@ -1,0 +1,126 @@
+:root {
+  /* colors */
+  --primary: #121212;
+  --grey: #666666;
+  --dark-grey: #676b74;
+  --light-grey: #f6f5f4;
+  --white: #fff;
+  --black: #000;
+  --blue: #0885d1;
+  --red: #e94e43;
+  --orange: #f8792a;
+  --green: #299d99;
+  --violet: #9d33da;
+  --yellow: #faa700;
+
+  /* fonts */
+  --main-font: "Nunito", sans-serif;
+  --cat-font: "Lato", sans-serif;
+  --dog-font: "Grandstander", cursive;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline: 2px dashed var(--light-grey);
+  outline-offset: 3px;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: var(--primary);
+  font-family: var(--main-font);
+}

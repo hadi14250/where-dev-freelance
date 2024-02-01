@@ -1,6 +1,6 @@
 /* header styles */
 body {
-  background-image: url(./images/background.svg);
+  background-image: url(./images/hero.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,7 @@ body {
 }
 
 .hero-holder {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .title-holder {
@@ -489,5 +489,9 @@ body {
 
   .choose-title {
     font-size: 25px;
+  }
+
+  .hero-comp-text {
+    font-size: 35px;
   }
 }

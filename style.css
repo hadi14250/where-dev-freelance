@@ -94,6 +94,7 @@ body {
 }
 
 .hero-title {
+	margin-left: 15px;
   font-family: var(--dog-font);
   color: var(--red);
   font-size: 65px;

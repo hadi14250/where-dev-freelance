@@ -245,7 +245,14 @@ body {
   justify-content: space-between;
 }
 
+.choose-head{
+	margin-left: 15px;
+	font-family: var(--dog-font);
+	text-transform: capitalize;
+}
+
 .choose-title {
+	text-align: center;
   margin-bottom: 20px;
   font-size: 55px;
   font-weight: 800;
@@ -276,8 +283,13 @@ body {
   background-color: #fce9e7 !important;
 }
 
+.choose-wrapper{
+	display: flex;
+	align-items: center;
+}
+
 .choose-box {
-	min-height: 260px;
+	min-height:260px;
   width: calc(25% - 20px);
   padding: 30px;
   font-weight: 700;
@@ -425,7 +437,7 @@ body {
 	.iframe{
 		width: 100%;
 	}
-	
+
   .site-logo {
     width: 45px;
     height: 60px;

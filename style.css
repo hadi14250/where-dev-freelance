@@ -60,15 +60,15 @@ body {
 .nav-btn {
   display: block;
   padding: 5px 12px;
-  color: var(--violet);
-  border: 2px dashed var(--violet);
+  color: var(--red);
+  border: 2px dashed var(--red);
   border-radius: 10px;
   transition: all ease 0.4s;
 }
 
 .nav-btn:hover {
   opacity: 0.8;
-  background-color: var(--violet);
+  background-color: var(--red);
   color: var(--white);
   text-decoration: none;
 }
@@ -140,7 +140,7 @@ body {
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: var(--violet);
+  background-color: var(--red);
   color: var(--white);
   border-radius: 15px;
 }
@@ -151,24 +151,14 @@ body {
 }
 
 .hero-comp-img {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   animation: animatioHero 1.5s infinite alternate;
 }
 
-.dog-image {
-  width: 120px !important;
-  height: 120px !important;
-}
-
-.hero-comp-holder {
-  margin-right: 30px;
-}
-
-.hero-comp-holder:first-child,
-.hero-comp-holder:last-child {
-  margin-right: 0;
+.dev-animation {
+  animation: animatioHero 1.5s infinite alternate;
 }
 
 .hero-comp-text {
@@ -177,9 +167,19 @@ body {
   font-family: var(--dog-font);
   font-size: 45px;
   font-weight: 900;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.hero-comp-text:last-child {
+.dev-text {
+  color: var(--red);
+}
+
+.hero-comp-text:last-child,
+.hero-comp-word :last-child {
   margin: 0 !important;
 }
 
@@ -219,7 +219,7 @@ body {
 }
 
 .about-title-add {
-  color: var(--violet);
+  color: var(--red);
   text-transform: uppercase;
 }
 
@@ -248,7 +248,7 @@ body {
 }
 
 .choose-title-add {
-  color: var(--violet);
+  color: var(--red);
 }
 
 .choose-box-holder {
@@ -377,10 +377,10 @@ body {
     height: 80px;
   }
 
-  .dog-image {
+  /* .dog-image {
     width: 60px !important;
     height: 60px !important;
-  }
+  } */
 
   .about-img {
     width: 200px;
